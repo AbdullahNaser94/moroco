@@ -13,8 +13,6 @@ const LeftSideBar = () => {
 
     const getNameUser = async () => {
 
-        
-    //    console.log(token);
         try {
             const res = await axios.get(`http://localhost:5000/users/${userId}`,
             {
